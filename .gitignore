@@ -1,0 +1,4 @@
+.vscode
+report_output
+*.json
+*.pyc
