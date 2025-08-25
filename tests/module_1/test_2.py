@@ -17,7 +17,7 @@ def test_2(page: Page) -> None:
 
     page.locator("input[data-test=\"quantity\"]").fill(test_product_quantity)
     page.locator("[data-test=\"add-to-cart\"]").click()
-    # alert prevents to click the cart button so we click on it to close
+    # alert prevents to click the cart button. One of the possible ways is just to click on it to close.
     page.get_by_role("alert").click()
     page.locator("[data-test=\"nav-cart\"]").click()
 
