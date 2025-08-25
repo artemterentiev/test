@@ -2,3 +2,6 @@
 report_output
 *.json
 *.pyc
+*.log
+.env
+test_copilot.py
